@@ -1,0 +1,26 @@
+/*Chris Jen Ian D. Roa  BSCS-2B*/
+
+.calculator {
+    width: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#display {
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
